@@ -1,16 +1,16 @@
-# 🌁 SF Real-Time Transit Dashboard
+# 🌁 SF Bay Real-Time Transit Dashboard
 
 <p align='center'>
-    <img src="dashboard-preview.png" alt="SF Real-Time Transit Dashboard Preview">
+    <img src="dashboard-preview.png" alt="SF Bay Real-Time Transit Dashboard Preview">
 </p>
 
 ## 🚊 Overview
-A Python transit dashboard that pulls real-time MUNI arrivals of lines closest to my home from the 511.org API. It runs as a simple script and can also run on a Raspberry Pi with an e-ink display. The project builds on u/valleyman86’s [Reddit post](https://www.reddit.com/r/sanfrancisco/comments/1jx4z61/i_made_this_muni_board_in_the_last_34_days/) and [Github repo](https://github.com/valleyman86/muni-display) with cleaner architecture, stronger API handling, and improved operations. I plan to expand it into a small web app where anyone can enter any stop.
+A Python dashboard that pulls and displays arrivals of transit lines using real-time data from the [511.org](https://511.org/open-data/transit) API, SF Bay’s Portal for Free Open Transit Data. The project currently runs as a simple script that produces a simple e-ink-display-friendly "dashboard.html" file containing that dashboard. The project builds on u/valleyman86’s [Reddit post](https://www.reddit.com/r/sanfrancisco/comments/1jx4z61/i_made_this_muni_board_in_the_last_34_days/) and [Github repo](https://github.com/valleyman86/muni-display) with cleaner architecture, stronger API handling, and improved operations. I plan to expand it into a small web app where anyone can enter any stop.
 
 > <b>Stack</b>: Python • Jinja2 • 511.org API • JSON • HTML/CSS • DevTools • Automation
 
 ## 🚇 Why I Built This
-My partner and I ride MUNI daily and wanted a small screen at home that displays J-Church and 33-Ashbury arrivals at a glance without pulling out our phones. The display updates regularly within token limits and works on an iPad or future e-ink setup. The project also serves as a practical demo of my Python and Support Engineering skills while solving a real need.
+My partner and I ride MUNI buses and trains daily and wanted a small screen at home that displays J-Church and 33-Ashbury arrivals at a glance without pulling out our phones. This allows us to quickly make decisions on when to leave home depending on the transit arrival times. The next priority is to make the display update regularly within token limits and to surely work on an iPad or future e-ink setup without needing to be ran manually. A few friends have expressed having the same problem and wanting access to this project, hence my efforts to automate it and expand it into a more general app. Aside from solving a real need, this project also serves as a practical demo of my Python and Support Engineering skills.
 
 ## 🧠 Skills Demonstrated
 This project intentionally includes several employer-relevant skills commonly expected in Support Engineer, Developer Support, and SRE-adjacent roles:
@@ -43,9 +43,6 @@ This project intentionally includes several employer-relevant skills commonly ex
 * Architecture diagram (planned)
 * Small UI (HTML dashboard)
 * GitHub-ready structure
-* Short video/gif demo (planned)
-
-This project is evolving into a small but complete internal tool.
 
 ## 🏗️ Project Architecture (High-Level Overview)
 ```
@@ -80,7 +77,6 @@ source venv/bin/activate
 ```
 venv\Scripts\activate
 ```
-
 
 #### 1. Install project dependencies
 ```
