@@ -4,6 +4,8 @@
     <img src="dashboard-preview.png" alt="SF Bay Real-Time Transit Dashboard Preview">
 </p>
 
+[![Preview Dashboard](https://img.shields.io/badge/Preview-dashboard.html-333?style=for-the-badge)](https://htmlpreview.github.io/?https://github.com/nathantorento/bay-transit-dashboard/blob/main/dashboard.html)
+
 ## 🚊 Overview
 A Python dashboard that pulls and displays arrivals of transit lines using real-time data from the [511.org](https://511.org/open-data/transit) API, SF Bay’s Portal for Free Open Transit Data. The project currently runs as a simple script that produces a simple e-ink-display-friendly "dashboard.html" file containing that dashboard. The project builds on u/valleyman86’s [Reddit post](https://www.reddit.com/r/sanfrancisco/comments/1jx4z61/i_made_this_muni_board_in_the_last_34_days/) and [Github repo](https://github.com/valleyman86/muni-display) with cleaner architecture, stronger API handling, and improved operations. I plan to expand it into a small web app where anyone can enter any stop.
 
