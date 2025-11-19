@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: black;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 64px;
+      margin: 24px 0 8px;
+    }
+
+    .last-updated {
+      font-size: 28px;
+      margin-bottom: 32px;
+    }
+
+    .container {
+      width: 100%;
+      padding: 0 32px;
+      box-sizing: border-box;
+    }
+
+    .entry {
+      margin-bottom: 60px;
+      text-align: left;
+    }
+
+    .header-row {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      margin-bottom: 20px;
+    }
+
+    .circle {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .circle span {
+      color: white;
+      font-size: 50px;
+      font-family: Helvetica, Arial, sans-serif;
+      display: inline-block;
+      transform: translateY(4px);
+    }
+
+    .destination {
+      font-size: 40px;
+      font-weight: normal;
+    }
+
+    .times {
+      font-size: 52px;
+      font-weight: bold;
+      margin-left: 134px; /* aligns with dest text */
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>MUNI</h1>
+  <div class="last-updated">Last Updated: 10:32 AM</div>
+
+  <div class="container">
+
+    
+    <div class="entry">
+      <div class="header-row">
+        <div class="circle"><span>J</span></div>
+        <div class="destination">Downtown (Inbound)</div>
+      </div>
+
+      <div class="times">10, 25, 40</div>
+    </div>
+    
+    <div class="entry">
+      <div class="header-row">
+        <div class="circle"><span>J</span></div>
+        <div class="destination">Balboa Park (Outbound)</div>
+      </div>
+
+      <div class="times">7, 20, 37</div>
+    </div>
+    
+    <div class="entry">
+      <div class="header-row">
+        <div class="circle"><span>33</span></div>
+        <div class="destination">The Richmond (Westbound)</div>
+      </div>
+
+      <div class="times">10, 31, 51</div>
+    </div>
+    
+    <div class="entry">
+      <div class="header-row">
+        <div class="circle"><span>33</span></div>
+        <div class="destination">SF General Hospital (Eastbound)</div>
+      </div>
+
+      <div class="times">8, 28, 48</div>
+    </div>
+    
+
+  </div>
+
+</body>
+</html>

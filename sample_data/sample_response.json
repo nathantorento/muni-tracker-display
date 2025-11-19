@@ -1,0 +1,131 @@
+{
+  "ServiceDelivery": {
+    "ResponseTimestamp": "2025-11-19T18:32:48Z",
+    "ProducerRef": "SF",
+    "Status": true,
+    "StopMonitoringDelivery": {
+      "version": "1.4",
+      "ResponseTimestamp": "2025-11-19T18:32:48Z",
+      "Status": true,
+      "MonitoredStopVisit": [
+        {
+          "RecordedAtTime": "2025-11-19T18:32:46Z",
+          "MonitoringRef": "13322",
+          "MonitoredVehicleJourney": {
+            "LineRef": "33",
+            "DirectionRef": "IB",
+            "FramedVehicleJourneyRef": {
+              "DataFrameRef": "2025-11-19",
+              "DatedVehicleJourneyRef": "11914742_M11"
+            },
+            "PublishedLineName": "ASHBURY-18TH ST",
+            "OperatorRef": "SF",
+            "OriginRef": "13511",
+            "OriginName": "25th St & Potrero Ave",
+            "DestinationRef": "16293",
+            "DestinationName": "Sacramento St & Cherry St",
+            "Monitored": true,
+            "InCongestion": null,
+            "VehicleLocation": {
+              "Longitude": "-122.41433",
+              "Latitude": "37.7654037"
+            },
+            "Bearing": "255.0000000000",
+            "Occupancy": "seatsAvailable",
+            "VehicleRef": "5877",
+            "MonitoredCall": {
+              "StopPointRef": "13322",
+              "StopPointName": "18th St & Church St",
+              "VehicleLocationAtStop": "",
+              "VehicleAtStop": "false",
+              "DestinationDisplay": "Sacramento + Cherry",
+              "AimedArrivalTime": "2025-11-19T18:41:13Z",
+              "ExpectedArrivalTime": "2025-11-19T18:41:43Z",
+              "AimedDepartureTime": "2025-11-19T18:41:13Z",
+              "ExpectedDepartureTime": null,
+              "Distances": ""
+            }
+          }
+        },
+        {
+          "RecordedAtTime": "2025-11-19T18:32:46Z",
+          "MonitoringRef": "13322",
+          "MonitoredVehicleJourney": {
+            "LineRef": "33",
+            "DirectionRef": "IB",
+            "FramedVehicleJourneyRef": {
+              "DataFrameRef": "2025-11-19",
+              "DatedVehicleJourneyRef": "11914743_M11"
+            },
+            "PublishedLineName": "ASHBURY-18TH ST",
+            "OperatorRef": "SF",
+            "OriginRef": "13511",
+            "OriginName": "25th St & Potrero Ave",
+            "DestinationRef": "16293",
+            "DestinationName": "Sacramento St & Cherry St",
+            "Monitored": true,
+            "InCongestion": null,
+            "VehicleLocation": {
+              "Longitude": "-122.406883",
+              "Latitude": "37.7513275"
+            },
+            "Bearing": "270.0000000000",
+            "Occupancy": "seatsAvailable",
+            "VehicleRef": "5859",
+            "MonitoredCall": {
+              "StopPointRef": "13322",
+              "StopPointName": "18th St & Church St",
+              "VehicleLocationAtStop": "",
+              "VehicleAtStop": "false",
+              "DestinationDisplay": "Sacramento + Cherry",
+              "AimedArrivalTime": "2025-11-19T19:01:13Z",
+              "ExpectedArrivalTime": "2025-11-19T19:01:23Z",
+              "AimedDepartureTime": "2025-11-19T19:01:13Z",
+              "ExpectedDepartureTime": null,
+              "Distances": ""
+            }
+          }
+        },
+        {
+          "RecordedAtTime": "1970-01-01T00:00:00Z",
+          "MonitoringRef": "13322",
+          "MonitoredVehicleJourney": {
+            "LineRef": "33",
+            "DirectionRef": "IB",
+            "FramedVehicleJourneyRef": {
+              "DataFrameRef": "2025-11-19",
+              "DatedVehicleJourneyRef": "11914744_M11"
+            },
+            "PublishedLineName": "ASHBURY-18TH ST",
+            "OperatorRef": "SF",
+            "OriginRef": "13511",
+            "OriginName": "25th St & Potrero Ave",
+            "DestinationRef": "16293",
+            "DestinationName": "Sacramento St & Cherry St",
+            "Monitored": true,
+            "InCongestion": null,
+            "VehicleLocation": {
+              "Longitude": "",
+              "Latitude": ""
+            },
+            "Bearing": null,
+            "Occupancy": null,
+            "VehicleRef": null,
+            "MonitoredCall": {
+              "StopPointRef": "13322",
+              "StopPointName": "18th St & Church St",
+              "VehicleLocationAtStop": "",
+              "VehicleAtStop": "",
+              "DestinationDisplay": "Sacramento + Cherry",
+              "AimedArrivalTime": "2025-11-19T19:21:13Z",
+              "ExpectedArrivalTime": "2025-11-19T19:21:23Z",
+              "AimedDepartureTime": "2025-11-19T19:21:13Z",
+              "ExpectedDepartureTime": null,
+              "Distances": ""
+            }
+          }
+        }
+      ]
+    }
+  }
+}
